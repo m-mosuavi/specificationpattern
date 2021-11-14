@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Core.Entity
+namespace Core.Entities
 {
-    public class BaseEntity
+    public class ProductBrand : BaseEntity
     {
-        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }

@@ -1,6 +1,6 @@
 ﻿using API.Dtos;
 using AutoMapper;
-using Core.Entity;
+using Core.Entities;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;

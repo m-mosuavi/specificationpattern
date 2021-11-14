@@ -1,4 +1,5 @@
-﻿using Core.Entity;
+﻿
+using Core.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -15,5 +16,6 @@ namespace Infrastructure.Data
         }
 
         public DbSet<Product> Products { get; set; }
+        public DbSet<ProductBrand> ProductBrands { get; set; }
     }
 }
